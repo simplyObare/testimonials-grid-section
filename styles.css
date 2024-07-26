@@ -127,7 +127,7 @@ body {
    }
 
    .parent {
-      max-width: 1200px;
+      max-width: 100vh;
       margin: 0 auto;
       padding: 3rem 1.5rem;
       grid-template-columns: repeat(4, 1fr);
