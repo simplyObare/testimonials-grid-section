@@ -119,7 +119,7 @@ body {
    color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 48em) {
+@media (min-width: 35em) {
    body {
       display: grid;
       place-content: center;
