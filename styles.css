@@ -29,11 +29,11 @@ body {
    display: grid;
    grid-template: column;
    padding: 1.5rem;
-   gap: 2rem;
+   gap: 1rem;
 }
 
 .child {
-   padding: 2rem;
+   padding: 1rem;
    border-radius: 0.5rem;
    color: var(--White);
    line-height: 1.5;
@@ -119,7 +119,7 @@ body {
    color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 35em) {
+@media (width >=38em) {
    body {
       display: grid;
       place-content: center;
@@ -132,7 +132,7 @@ body {
       padding: 3rem 1.5rem;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(2, 1fr);
-      gap: 1.5rem;
+      gap: 1rem;
    }
 
    .child header {
